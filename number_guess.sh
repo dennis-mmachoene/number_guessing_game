@@ -61,7 +61,7 @@ while read GUESS; do
   GUESSES=$(( GUESSES + 1 ))
 
   if (( GUESS < SECRET_NUMBER )); then
-    echo "It is higher than that, guess again:"
+    echo "It's higher than that, guess again:"
   elif (( GUESS > SECRET_NUMBER )); then
     echo "It's lower than that, guess again:"
   else
